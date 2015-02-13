@@ -30,6 +30,8 @@ a {
 nav {
 	right: 0;
 	position: absolute;	
+	padding: 35px 10px 35px 35px;
+	line-height: 1em;
 }
 
 nav img {
@@ -39,14 +41,32 @@ nav img {
 nav ul {
 	list-style-type: none;
 	right: 0;
+	float: left;
+	line-height: 1.5em;
 }
 
 nav ul li {
 	display: inline;
+	line-height: 1em;
+}
+
+nav a {
+	padding-right: 10px;
+}
+
+nav ul li img {
+	display: inline;
+	line-height: 0;
+}
+
+#reseaux {
+	line-height: 0;
+	margin-left: 10px
 }
 
 section, footer {
 	width: 100%;
+	float: left
 }
 
 .wrapper {
@@ -64,12 +84,38 @@ h1, h3{
 
 #logo figure {
 	float: left;
+	padding: 35px 4px 35px 35px;
 }
 
 figcaption {
-float: right;
+	float: right;
+	padding: 35px 35px 35px 0;
+}
+
+
+footer {
+	height: 300px;
 }
 
 footer img {
 	width: 31px;
+	height: 27px;
+}
+
+footer p {
+	text-align: center;
+}
+
+#contact {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#tel {
+	float: left;
+	text-align: center
+}
+
+#mail {
+	text-align: center
 }
