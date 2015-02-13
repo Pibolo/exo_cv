@@ -11,6 +11,10 @@ header {
 	border-top: 2px solid green;
 	border-bottom: 2px solid green;
 	height: 100px;
+	position: fixed;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 100;
 }
 
 a {
@@ -28,8 +32,7 @@ a {
 }
 
 nav {
-	right: 0;
-	position: absolute;	
+	float: right;
 	padding: 35px 10px 35px 35px;
 	line-height: 1em;
 }
@@ -66,11 +69,30 @@ nav ul li img {
 
 section, footer {
 	width: 100%;
-	float: left
+	float: left;
+	
 }
 
 .wrapper {
-	height: 100px;
+	height: 300px;
+}
+
+.first {
+	margin-top: 115px;
+}
+
+#global {
+	margin: 0 auto;
+	width: 50%;
+	height: 100%;
+	background: url(../img/fond_center.jpg) no-repeat center;
+}
+
+#layer {
+	width: 50%;
+	height: 100%;
+	position:relative;
+	background-color: rgba(0,0,0,0.3);
 }
 
 .black, footer {
@@ -119,3 +141,4 @@ footer p {
 #mail {
 	text-align: center
 }
+
